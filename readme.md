@@ -4,11 +4,11 @@ Integrate with [ionic login](https://github.com/RogerShenAU/ionic-login) starter
 ## How to use
 1. Setup your [ionic login](https://github.com/RogerShenAU/ionic-login) starter app
 2. Download and upload to your site's root folder
-3. Update/Add below code to [ionic login](https://github.com/RogerShenAU/ionic-login)/src/providers/post/post.ts, change "https://www.example.com" to your website URL
+3. Update/Add below code to [ionic login](https://github.com/RogerShenAU/ionic-login)/src/providers/post/post.ts, replace https://www.example.com with your website URL
 
 	```bash
 	this.authUrl = 'https://www.example.com/php-ionic-login-auth/login.php'; 
 	```
-4. Use below login details to test ionic app login
-   username: demo
+4. Use below login details to test ionic app login  
+   username: demo  
    password: demo
